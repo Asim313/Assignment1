@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rooms - Asim Stay</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Shared header section -->
+  <div class="site-header">
+    <div class="container nav-wrap">
+      <div class="brand">
+        <img src="images/logo.png" alt="Asim Stay hotel logo" class="logo" />
+        <h1>Hotel Booking</h1>
+      </div>
+      <div class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="categories.html">Categories</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="report.html">Report</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container section">
+    <h2>Available Rooms</h2>
+
+    <div class="room-grid">
+      <div class="room-card">
+        <img src="images/room-luxury.jpg" alt="Luxury suite room" />
+        <div class="room-content">
+          <h3>Luxury Suite</h3>
+          <p>
+            A premium room with city view, modern interior, and a private lounge
+            corner for comfort and style.
+          </p>
+          <ul>
+            <li>WiFi</li>
+            <li>Air Conditioning</li>
+            <li>Smart TV</li>
+            <li>Mini Bar</li>
+          </ul>
+          <p class="price">Price per night: $220</p>
+          <label for="nights-1">Number of nights:</label>
+          <input type="number" id="nights-1" min="1" />
+          <button type="button" onclick="calculateTotal(220, 'nights-1', 'result-1')">Calculate Total</button>
+          <p id="result-1" class="result"></p>
+        </div>
+      </div>
+
+      <div class="room-card">
+        <img src="images/room-business.jpg" alt="Business class hotel room" />
+        <div class="room-content">
+          <h3>Business Deluxe</h3>
+          <p>
+            A professional stay option with ergonomic workspace and quiet
+            environment for productive travel.
+          </p>
+          <ul>
+            <li>High-Speed WiFi</li>
+            <li>Air Conditioning</li>
+            <li>LED TV</li>
+            <li>Work Desk</li>
+          </ul>
+          <p class="price">Price per night: $150</p>
+          <label for="nights-2">Number of nights:</label>
+          <input type="number" id="nights-2" min="1" />
+          <button type="button" onclick="calculateTotal(150, 'nights-2', 'result-2')">Calculate Total</button>
+          <p id="result-2" class="result"></p>
+        </div>
+      </div>
+
+      <div class="room-card">
+        <img src="images/room-family.jpg" alt="Family room with large bed" />
+        <div class="room-content">
+          <h3>Family Comfort Room</h3>
+          <p>
+            A spacious room designed for families with extra sleeping space and
+            convenient in-room facilities.
+          </p>
+          <ul>
+            <li>WiFi</li>
+            <li>Air Conditioning</li>
+            <li>TV</li>
+            <li>Breakfast Included</li>
+          </ul>
+          <p class="price">Price per night: $180</p>
+          <label for="nights-3">Number of nights:</label>
+          <input type="number" id="nights-3" min="1" />
+          <button type="button" onclick="calculateTotal(180, 'nights-3', 'result-3')">Calculate Total</button>
+          <p id="result-3" class="result"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-footer">
+    <div class="container">
+      <p>Copyright 2026 - Hotel Booking</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

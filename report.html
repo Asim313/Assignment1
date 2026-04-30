@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Report - Hotel Booking</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-header">
+    <div class="container nav-wrap">
+      <div class="brand">
+        <img src="images/logo.png" alt="Asim Stay hotel logo" class="logo" />
+        <h1>Hotel Booking</h1>
+      </div>
+      <div class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="categories.html">Categories</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="report.html">Report</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container section">
+    <h2>Hotel Booking Website Report</h2>
+
+    <h3>Introduction</h3>
+    <p>
+      This project is a frontend hotel booking website developed as a university
+      assignment. The main goal was to design a clean and responsive interface
+      using only XHTML, CSS, and JavaScript. The website supports key tasks such
+      as exploring categories, viewing room details, and calculating reservation
+      cost by number of nights. This project improved my practical understanding
+      of page structure, styling, and client-side validation.
+    </p>
+
+    <h3>Body</h3>
+    <h4>1) Development Process</h4>
+    <p>
+      I built the project in three connected pages. First, <em>index.html</em>
+      works as the homepage with the website title, logo, vision and mission,
+      developer profile (Asim Khursheed), navigation links, and a contact
+      section with email, phone, and a simple form. Second,
+      <em>categories.html</em> presents five required categories: Luxury Hotels,
+      Business Hotels, Family Hotels, Budget Hotels, and Beach Resorts. I used
+      modern cards with hover effects, and each card links to
+      <em>rooms.html</em>. Third, <em>rooms.html</em> displays three room options
+      with real photos, descriptions, features, and per-night prices. In
+      <em>script.js</em>, I added the reservation formula:
+      <strong>total = price x nights</strong>. The script validates input and
+      rejects empty, zero, or negative values with user-friendly output. Because
+      this is a static frontend project, there is no backend storage or live
+      booking submission.
+    </p>
+
+    <h4>2) Competitor Analysis</h4>
+    <div class="report-table-wrap">
+      <table class="report-table" summary="Competitor analysis table">
+        <thead>
+          <tr>
+            <th>Platform</th>
+            <th>Advantages (2)</th>
+            <th>Disadvantages (2)</th>
+            <th>Comparison with My Website</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Platform">Booking.com</td>
+            <td data-label="Advantages (2)">Huge hotel database; trusted reviews and filters</td>
+            <td data-label="Disadvantages (2)">Interface can feel crowded; paid promotions affect ranking</td>
+            <td data-label="Comparison with My Website">
+              My site is simpler and easier to understand, but has fewer
+              listings and no real review system.
+            </td>
+          </tr>
+          <tr>
+            <td data-label="Platform">Airbnb</td>
+            <td data-label="Advantages (2)">Unique home stays; strong host-guest communication model</td>
+            <td data-label="Disadvantages (2)">Quality can vary by host; service fees may be high</td>
+            <td data-label="Comparison with My Website">
+              My site is basic and hotel-focused, but lacks account features and
+              host interaction tools.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h4>3) Future Improvements</h4>
+    <ul>
+      <li>Online payment integration for secure checkout.</li>
+      <li>User login/signup for personalized booking history.</li>
+      <li>Real-time booking status for live room availability.</li>
+    </ul>
+
+    <h3>Conclusion</h3>
+    <p>
+      In conclusion, this project successfully demonstrates a complete static
+      hotel booking website with category browsing, room presentation, and
+      dynamic cost calculation. The assignment improved my skills in frontend
+      layout planning, responsive design, and JavaScript validation. I also
+      learned the difference between static prototypes and full production
+      booking systems, which motivates future backend integration.
+    </p>
+
+    <h3>References</h3>
+    <ul>
+      <li><a href="https://www.booking.com">https://www.booking.com</a></li>
+      <li><a href="https://www.airbnb.com">https://www.airbnb.com</a></li>
+    </ul>
+  </div>
+
+  <div class="site-footer">
+    <div class="container">
+      <p>Copyright 2026 - Hotel Booking</p>
+    </div>
+  </div>
+</body>
+</html>
