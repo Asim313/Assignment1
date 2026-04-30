@@ -86,7 +86,10 @@ body {
 }
 
 .hero {
-  background: linear-gradient(135deg, #1e90ff, #72c3ff);
+  background-image: linear-gradient(rgba(7, 27, 43, 0.56), rgba(7, 27, 43, 0.56)), url("images/category-beach.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: #ffffff;
   padding: 4.2rem 0 3.8rem;
   text-align: center;
